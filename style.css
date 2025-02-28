@@ -5,8 +5,20 @@
     font-family: "Poppins", serif;
 }
 
-body{
-    background-color: black;
+.img-background{
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: -1;
+border: none;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
 }
 
 header{
@@ -63,8 +75,16 @@ img{
 
 .burger-name{
     color: white;
+    background-color: purple;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .value{
     color: green;
+    background-color: #FFF;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
